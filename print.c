@@ -142,9 +142,9 @@ dbg_print(int format, FILE *target, void *data, int len, int sep)
 		break;
 	}
 
-#ifdef EOL_HANDLING
+//#ifdef EOL_HANDLING
 	if (sep)
-#endif /* EOL_HANDLING */
+//#endif /* EOL_HANDLING */
 	fprintf(target, "%c", SEPARATOR);
 	
 	return(0);
